@@ -1,0 +1,51 @@
+body, html, .wrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	font-family: sans-serif;
+	color: #333;
+}
+.wrapper {
+    background: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.container {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    background: white;
+    -webkit-box-shadow: 0 0 0 1px #c3c3c3;
+            box-shadow: 0 0 0 1px #c3c3c3;
+    width: 100%;
+    max-width: 480px;
+}
+.slide-in {
+	-webkit-animation: slide-in 500ms;
+    animation: slide-in 500ms;
+	margin-top: 0;
+}
+@-webkit-keyframes slide-in {
+    from {margin-top: -100%;}
+    to {margin-top: 0;}
+}
+@keyframes slide-in {
+    from {margin-top: -100%;}
+    to {margin-top: 0;}
+}
+h1,h2 {
+    text-align: center;
+}
+.browser-image img {
+    width: 100%;
+    max-width: 300px;
+}
+.browser-image {
+    text-align: center;
+}
